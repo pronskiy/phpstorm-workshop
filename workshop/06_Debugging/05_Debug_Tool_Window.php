@@ -16,7 +16,7 @@ require_once 'Code/Person.php';
 use Debugging\JetBrains\Person;
 
 $name = 'Maarten';
-$fruits = array('apple', 'pear', 'lemon');
+$fruits = ['apple', 'pear', 'lemon'];
 
 // 1. Navigate to the Person class constructor and place a breakpoint in it.
 $person = new Person($name);
